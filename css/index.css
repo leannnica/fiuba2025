@@ -1,72 +1,67 @@
-    /* Estilos generales */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
-  }
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#bienvenida {
+  padding: 10px;
+  text-align: center;
+  background-color: #eef2f3;
+}
+
+#materias ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#materias li {
+  width: 100%;
+  max-width: 300px;
+}
+
+#materias a {
+  display: block;
+  background-color: #004080;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+#materias a:hover {
+  background-color: #0066cc;
+}
   
-  /* Header */
-  header {
-    background-color: #004080;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  /* Sección de bienvenida */
-  #bienvenida {
-    padding: 10px;
-    text-align: center;
-    background-color: #eef2f3;
-  }
-  
-  /* Sección de materias */
-  #materias ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px; /* separa los botones */
-  }
-  
-  #materias li {
-    width: 100%;
-    max-width: 300px;
-  }
-  
-  #materias a {
-    display: block;
-    background-color: #004080;
-    color: white;
-    text-decoration: none;
-    padding: 15px 20px;
-    border-radius: 8px;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease;
-    text-align: center;
-  }
-  
-  #materias a:hover {
-    background-color: #0066cc;
-  }
-  
-  /* Footer */
-  #footer {
-    background-color: rgba(51, 51, 51, 0.9);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 14px;
-  }
+#footer {
+  background-color: rgba(51, 51, 51, 0.9);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
   
